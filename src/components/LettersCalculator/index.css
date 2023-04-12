@@ -1,0 +1,33 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+.search {
+  background-color: transparent;
+  color: white;
+}
+.button {
+  background-color: white;
+  color: #1d976c;
+  height: 50px;
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
